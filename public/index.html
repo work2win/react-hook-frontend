@@ -5,9 +5,18 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dropotron.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</noscript>	
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="alleppey Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -15,29 +24,39 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <title>Alleppey Residency</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <body class="HomePage">
+	<!-- Header -->
+	<div id="header">
+    	<div class="container">
+    		<div id="root"></div>
+			<h1><a href="#" id="logo">Alleppey Residency</a></h1>
+			<div id="banner">
+				<div class="container">
+					<section>
+						<header class="major">
+							<h2>Lets plan your Vacation!</h2><br>
+								<span class="byline">We promise you that you are really going to enjoy your stay here in God's own Country.</span>
+						</header>									
+					</section>			
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+	<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<section class="4u">
+			<header class="major">
+				<h2>Reach Us</h2>
+				<span class="byline">Why wait ? Lets plan your trip !</span>
+				<p>Alleppey Residency is an economic hotel that has one, two, three bedrooms with bathroom. Its 83Km away from airport ,4KM from railway station, 400m from KSRTC bus stand. If you wish a better hotel we would help you reach the best one with your choice.</p>
+			</header>
+		</section>
+	</div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

@@ -1,0 +1,49 @@
+.navbar{    
+    position: fixed;
+    width: 100%;    
+    color: rgb(34, 83, 216);
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.nav-items{
+    order: 2;
+    display: flex;
+}
+
+.navbar a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.nav-items Button{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+    margin-right: 30rem;
+    margin-top: 0cm;
+}
+
+.but{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2.5rem;
+    float: right;
+    background-color: white;
+}
