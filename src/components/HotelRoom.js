@@ -49,6 +49,13 @@ const HotelRoom = () => {
     return(
         <div>
             <Container>
+            <nav id="nav">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="photo.html">Photos</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+				</ul>
+			</nav><br></br>
             <div className="float-end">
                 <Button color="success" tag={Link} to="/rooms/new">Add rooms</Button>
             </div>
